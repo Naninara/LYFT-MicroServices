@@ -43,4 +43,16 @@ public class PersonalDetailsService {
         }
         return new ResponseEntity<>(null,HttpStatus.BAD_REQUEST);
     }
+
+    public ResponseEntity<PersonalDetailsModel> getDetailsUsingEmail(String email){
+        try{
+            PersonalDetailsModel result = personalControllerDao.findOneByEmail(email);
+            return new ResponseEntity<>(result,HttpStatus.OK);
+        }
+        catch (Exception e){
+            e.printStackTrace();
+            return new ResponseEntity<>(null,HttpStatus.BAD_REQUEST);
+        }
+
+    }
 }
