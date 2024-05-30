@@ -8,7 +8,7 @@ Responsible For Authentication and OAuth signing and JWT Management
 
 Responsible for Getting User Details like Who Posted the ride and Who wants to book the ride
 
-### 3.Ride-Service (Still Developing)
+### 3.Ride-Service 
 
 Resposible for posting and getting data of rides
 
