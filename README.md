@@ -12,7 +12,7 @@ Responsible for Getting User Details like Who Posted the ride and Who wants to b
 
 Resposible for posting and getting data of rides
 
-### 4. Search MicroService (Still Developing)
+### 4. Search MicroService 
 
 Responsible for Searching The Rides From One Place To Another
 
