@@ -9,7 +9,7 @@ public class CredentailsRequestModel {
 
     private String vehicleType;
 
-    private int phonenumber;
+    private long phonenumber;
 
     private String gender;
 
@@ -47,7 +47,7 @@ public class CredentailsRequestModel {
         this.vehicleType = vehicleType;
     }
 
-    public int getPhonenumber() {
+    public long getPhonenumber() {
         return phonenumber;
     }
 

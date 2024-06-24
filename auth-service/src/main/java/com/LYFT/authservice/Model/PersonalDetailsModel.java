@@ -12,9 +12,9 @@ public class PersonalDetailsModel {
 
     private String vehicleType;
 
-    private  int phonenumber;
+    private  long phonenumber;
 
-    public PersonalDetailsModel(String email, String gender, String name, String vehicleNumber, String vehicleType, int phonenumber) {
+    public PersonalDetailsModel(String email, String gender, String name, String vehicleNumber, String vehicleType, long phonenumber) {
         this.email = email;
         this.gender = gender;
         this.name = name;
@@ -66,11 +66,11 @@ public class PersonalDetailsModel {
         this.vehicleType = vehicleType;
     }
 
-    public int getPhonenumber() {
+    public long getPhonenumber() {
         return phonenumber;
     }
 
-    public void setPhonenumber(int phonenumber) {
+    public void setPhonenumber(long phonenumber) {
         this.phonenumber = phonenumber;
     }
 }
